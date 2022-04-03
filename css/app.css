@@ -1,0 +1,73 @@
+body {
+    background-color: #fafafa;
+    color: #3d3d3d;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box; 
+}
+
+button {
+    border-radius: 3px;
+    color: #3d3d3d;
+    height: 30px;
+    margin: 0;
+    min-width: 64px;
+    padding: 0 5px;
+    display: inline-block;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(160, 160, 160, 0.2);
+}
+
+button:active {
+    background-color:  rgba(160, 160, 160, 0.5);
+}
+
+main {
+    margin: 0 auto;
+    padding-top: 50px; 
+}
+
+header {
+    margin: auto;
+    width: 50%;
+}
+
+div {
+    margin: auto;
+    display: block;
+    padding: 5px 0px;
+    overflow: hidden;
+}
+
+.inputAndBtn {
+    margin: auto;
+    width: 100%;
+    max-width: 100%;
+    
+}
+
+input {
+    margin: auto;
+    width: 62%;
+    height: 24px;
+}
+
+.todoList {
+    max-width: 400px;
+    display: block;
+    margin: 0 auto 40px;
+    background-color: #e0e0e0;
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 2px 10px 0 #3d3d3d;
+    box-shadow: 0 2px 10px 0 #474747; 
+}
